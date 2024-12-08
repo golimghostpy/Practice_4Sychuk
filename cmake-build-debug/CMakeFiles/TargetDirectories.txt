@@ -1,0 +1,3 @@
+/home/golimghost/CLionProjects/Practice_4Sychuk/cmake-build-debug/CMakeFiles/pr4.dir
+/home/golimghost/CLionProjects/Practice_4Sychuk/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/golimghost/CLionProjects/Practice_4Sychuk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
