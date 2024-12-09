@@ -1,4 +1,0 @@
-/home/golimghost/Downloads/clion-2024.3/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -DPython_EXECUTABLE=/home/golimghost/CLionProjects/Practice_4Sychuk/.venv/bin/python -DPython3_EXECUTABLE=/home/golimghost/CLionProjects/Practice_4Sychuk/.venv/bin/python -S /home/golimghost/CLionProjects/Practice_4Sychuk -B /home/golimghost/CLionProjects/Practice_4Sychuk/cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: /home/golimghost/CLionProjects/Practice_4Sychuk/cmake-build-debug

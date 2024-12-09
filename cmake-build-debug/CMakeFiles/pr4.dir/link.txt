@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/pr4.dir/main.cpp.o CMakeFiles/pr4.dir/structures.cpp.o -o /home/golimghost/CLionProjects/Practice_4Sychuk/bin/pr4
