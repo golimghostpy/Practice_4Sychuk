@@ -109,8 +109,8 @@ CMAKE_INSTALL_PREFIX:PATH=/usr/local
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
 
-//No help, variable specified on the command line.
-CMAKE_MAKE_PROGRAM:UNINITIALIZED=/home/golimghost/Downloads/clion-2024.3/bin/ninja/linux/x64/ninja
+//Path to a program.
+CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Practice_4Sychuk
+CMAKE_PROJECT_NAME:STATIC=Practice_4
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -216,13 +216,19 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Practice_4Sychuk_BINARY_DIR:STATIC=/home/golimghost/CLionProjects/Practice_4Sychuk/cmake-build-debug
+Practice_4_BINARY_DIR:STATIC=/home/golimghost/CLionProjects/Practice_4Sychuk/cmake-build-debug
 
 //Value Computed by CMake
-Practice_4Sychuk_IS_TOP_LEVEL:STATIC=ON
+Practice_4_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-Practice_4Sychuk_SOURCE_DIR:STATIC=/home/golimghost/CLionProjects/Practice_4Sychuk
+Practice_4_SOURCE_DIR:STATIC=/home/golimghost/CLionProjects/Practice_4Sychuk
+
+//No help, variable specified on the command line.
+Python3_EXECUTABLE:UNINITIALIZED=/home/golimghost/CLionProjects/Practice_4Sychuk/.venv/bin/python
+
+//No help, variable specified on the command line.
+Python_EXECUTABLE:UNINITIALIZED=/home/golimghost/CLionProjects/Practice_4Sychuk/.venv/bin/python
 
 
 ########################
@@ -298,7 +304,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Ninja
+CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 //Generator instance identifier.
 CMAKE_GENERATOR_INSTANCE:INTERNAL=
 //Name of generator platform.
@@ -312,6 +318,8 @@ CMAKE_HOME_DIRECTORY:INTERNAL=/home/golimghost/CLionProjects/Practice_4Sychuk
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_MAKE_PROGRAM
+CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
 CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG

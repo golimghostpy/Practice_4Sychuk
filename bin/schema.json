@@ -1,0 +1,11 @@
+{
+  "name" : "trader",
+  "tuples_limit" : 10000000,
+  "structure" : {
+    "user" : ["username", "key"],
+    "order" : ["user_id", "pair_id", "quantity", "price", "type", "closed"],
+    "user_lot" : ["user_id", "lot_id", "quantity"],
+    "pair" : ["first_lot_id", "second_lot_id"],
+    "lot" : ["name"]
+  }
+}

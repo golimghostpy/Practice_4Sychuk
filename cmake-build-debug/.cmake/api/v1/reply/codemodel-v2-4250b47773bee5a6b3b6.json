@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Practice_4Sychuk",
+					"name" : "Practice_4",
 					"targetIndexes" : 
 					[
 						0
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "pr4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pr4-Debug-e931a361b1a4d1953692.json",
+					"jsonFile" : "target-pr4-Debug-d6c13eeab0b020fb1975.json",
 					"name" : "pr4",
 					"projectIndex" : 0
 				}

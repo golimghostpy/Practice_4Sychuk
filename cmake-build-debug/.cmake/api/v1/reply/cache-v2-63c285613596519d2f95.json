@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Ninja"
+			"value" : "Unix Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -650,12 +650,16 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Path to a program."
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : "/home/golimghost/Downloads/clion-2024.3/bin/ninja/linux/x64/ninja"
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gmake"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -843,7 +847,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Practice_4Sychuk"
+			"value" : "Practice_4"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1142,7 +1146,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Practice_4Sychuk_BINARY_DIR",
+			"name" : "Practice_4_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1154,7 +1158,7 @@
 			"value" : "/home/golimghost/CLionProjects/Practice_4Sychuk/cmake-build-debug"
 		},
 		{
-			"name" : "Practice_4Sychuk_IS_TOP_LEVEL",
+			"name" : "Practice_4_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1166,7 +1170,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Practice_4Sychuk_SOURCE_DIR",
+			"name" : "Practice_4_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1176,6 +1180,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/golimghost/CLionProjects/Practice_4Sychuk"
+		},
+		{
+			"name" : "Python3_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/home/golimghost/CLionProjects/Practice_4Sychuk/.venv/bin/python"
+		},
+		{
+			"name" : "Python_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/home/golimghost/CLionProjects/Practice_4Sychuk/.venv/bin/python"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
