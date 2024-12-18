@@ -8,6 +8,6 @@
     "SOL",
     "DOGE"
   ],
-  "database_ip": "localhost",
+  "database_ip": "db",
   "database_port": 7432
 }

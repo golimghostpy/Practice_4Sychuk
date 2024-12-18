@@ -1,0 +1,36 @@
+services:
+  exchange:
+    build:
+      context: ./exchange
+    volumes:
+      - ./exchange/config.json:/app/config.json
+    restart: always
+    depends_on:
+      - db
+    deploy:
+      replicas: 4
+      restart_policy:
+        condition: on-failure
+      update_config:
+        parallelism: 2
+        delay: 10s
+
+  db:
+    build:
+      context: ./server
+    volumes:
+      - ./server/bin/schema.json:/app/bin/schema.json
+    restart: always
+    container_name: db
+    ports:
+      - "7432:7432"
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "81:81"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - exchange
+

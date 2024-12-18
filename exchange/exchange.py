@@ -368,9 +368,9 @@ def get_config(): # получаем информацию для биржи
         return [config['lots'], config['database_ip'], config['database_port']]
 
 def add_lots(lots): # заполняем лоты
-    with open('../bin/trader/lot/lot_pk_sequence.txt', 'r') as idFile:
-        if (idFile.readline() != '1'):
-            return
+    lots = send_to_server(f"SELECT lot.lot_id FROM lot")
+    if lots != "lot.lot_id ":
+    	return
 
     for i in lots:
         send_to_server(f"INSERT INTO lot VALUES ('{i}')")
@@ -387,5 +387,5 @@ if __name__ == '__main__':
 
     add_lots(lots)
 
-    app.run(debug=True, threaded=True) # начинаем прослушивать консоль
+    app.run(debug=True, threaded=True, host='0.0.0.0', port=5000) # начинаем прослушивать консоль
 
